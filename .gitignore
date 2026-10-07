@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+
+build/
+dist/
+*.spec
+
+temp/
+tracklists/
+
+.DS_Store
+Thumbs.db
