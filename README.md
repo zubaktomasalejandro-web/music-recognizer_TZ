@@ -31,7 +31,7 @@ Download the latest Windows ZIP from the Releases section.
 
 Extract the ZIP and run:
 
-`MusicRecognizer.exe`
+`music-recognizer_TZ.exe`
 
 Do not move or delete the `program files` folder.
 
