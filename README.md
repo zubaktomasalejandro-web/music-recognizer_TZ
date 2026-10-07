@@ -103,7 +103,7 @@ program files/
 ## Building the Windows executable
 
 ```bash
-pyinstaller --onefile --name MusicRecognizer music_recognizer.py
+pyinstaller --onefile --name MusicRecognizer music-recognizer_TZ.py
 ```
 
 The executable will be created inside:
