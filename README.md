@@ -39,7 +39,7 @@ Do not move or delete the `program files` folder.
 
 Most videos work without authentication.
 
-If YouTube requires you to sign in, Music Recognizer first lets the normal download process fail completely and then checks whether the error is actually authentication-related.
+If YouTube requires you to sign in, music-recognizer_TZ first lets the normal download process fail completely and then checks whether the error is actually authentication-related.
 
 Only in that case will it offer to open the included Firefox Portable instance.
 
