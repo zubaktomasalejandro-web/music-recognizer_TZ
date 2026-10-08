@@ -1,4 +1,4 @@
-# Shazubak
+# shazubak
 
 A free Windows tool that scans long DJ sets from YouTube or SoundCloud, identifies tracks with Shazam, and generates a timestamped tracklist.
 
