@@ -1,4 +1,4 @@
-# Music Recognizer
+# Shazubak
 
 A free Windows tool that scans long DJ sets from YouTube or SoundCloud, identifies tracks with Shazam, and generates a timestamped tracklist.
 
@@ -15,7 +15,7 @@ A free Windows tool that scans long DJ sets from YouTube or SoundCloud, identifi
 
 ## How it works
 
-Music Recognizer analyzes a 12-second audio sample every 30 seconds.
+Shazubak analyzes a 12-second audio sample every 30 seconds.
 
 Tracks identified more than once are added to the main tracklist.
 
@@ -31,7 +31,7 @@ Download the latest Windows ZIP from the Releases section.
 
 Extract the ZIP and run:
 
-`music-recognizer_TZ.exe`
+`shazubak.exe`
 
 Do not move or delete the `program files` folder.
 
@@ -46,7 +46,7 @@ Only in that case will it offer to open the included Firefox Portable instance.
 1. Log in to YouTube in Firefox Portable.
 2. Confirm that you can open the restricted video.
 3. Close Firefox Portable completely.
-4. Return to Music Recognizer and press ENTER.
+4. Return to Shazubak and press ENTER.
 
 The program then temporarily uses that Firefox session for the download.
 
@@ -103,7 +103,7 @@ program files/
 ## Building the Windows executable
 
 ```bash
-pyinstaller --onefile --name MusicRecognizer music-recognizer_TZ.py
+pyinstaller --onefile --name shazubak shazubak.py
 ```
 
 The executable will be created inside:
@@ -116,7 +116,7 @@ Track timestamps are approximate and correspond to the first moment at which the
 
 Music recognition depends on Shazam and may not identify unreleased, heavily edited, obscure, or highly overlapped tracks.
 
-Use Music Recognizer only with content you are permitted to access and download. Users are responsible for complying with applicable copyright law and the terms of the source platform.
+Use Shazubak only with content you are permitted to access and download. Users are responsible for complying with applicable copyright law and the terms of the source platform.
 
 ## License
 
